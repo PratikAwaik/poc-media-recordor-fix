@@ -23,8 +23,6 @@ const Index: React.FC = () => {
     setMessages((prevMessages) => [...prevMessages, {id, audio}]);
   };
 
-  console.log(messages);
-
   return (
     <div className="">
       <div className="sm:w-full md:w-11/12 h-96 md:mx-auto flex flex-col">
